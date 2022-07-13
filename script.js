@@ -1,6 +1,6 @@
 const btnEntra = document.getElementById('entrar');
 
-let objDados = {
+const objDados = {
   email: 'tryber@teste.com',
   senha: '123456',
 };
@@ -10,6 +10,8 @@ const inputSenha = document.getElementById('password');
 function validaEmailESenha() {
   if (inputEmail.value === objDados.email && inputSenha.value === objDados.senha) {
     alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos');
   }
 }
 
