@@ -11,7 +11,7 @@ function validaEmailESenha() {
   if (inputEmail.value === objDados.email && inputSenha.value === objDados.senha) {
     alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos');
+    alert('Email ou senha inválidos.');
   }
 }
 
