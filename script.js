@@ -16,3 +16,5 @@ function validaEmailESenha() {
 }
 
 btnEntra.addEventListener('click', validaEmailESenha);
+
+const btnSubmit = 
