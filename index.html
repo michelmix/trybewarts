@@ -22,19 +22,32 @@
   </header>
   <main>
     <form id="evaluation-form" action="">
+      <div class="full-name">
         <input type="text" name="nome" id="input-name" placeholder="Nome">
         <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
+      </div>
+      <div class="wrapper">
         <input type="email" name="" id="input-email" placeholder="Email">
-        <select name="" id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+      <select name="" id="house">
+        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+      </select>
+      </div>
+      <div class="familia">
+        <label for="" id="label-family">Qual sua família?</label>
+
+        <label for="Frontend">Frontend<input type="radio" name="family" value="Frontend" id="Frontend"></label>
+
+        <label for="Backend">Backend<input type="radio" name="family" value="Backend" id="Backend"></label>
+
+        <label for="FullStack">FullStack<input type="radio" name="family" value="FullStack" id="FullStack"></label>
+      </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo-colorida-trybewarts">
   </main>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
