@@ -17,13 +17,14 @@ function validaEmailESenha() {
 
 btnEntra.addEventListener('click', validaEmailESenha);
 
+const inputAgreement = document.getElementById('agreement');
 
-const inputAgreement = document.getElementById('agreement')
+const btnSubmit = document.getElementById('submit-btn');
 
-const btnSubmit = document.getElementById('submit-btn')
-
-console.log(inputAgreement.checked);
-if (inputAgreement.checked) {
-  btnSubmit.removeAttribute('disable');
-  
-}
+inputAgreement.addEventListener('click', function () {
+  if (inputAgreement.checked) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+})
