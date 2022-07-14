@@ -17,4 +17,13 @@ function validaEmailESenha() {
 
 btnEntra.addEventListener('click', validaEmailESenha);
 
-const btnSubmit = 
+
+const inputAgreement = document.getElementById('agreement')
+
+const btnSubmit = document.getElementById('submit-btn')
+
+console.log(inputAgreement.checked);
+if (inputAgreement.checked) {
+  btnSubmit.removeAttribute('disable');
+  
+}
