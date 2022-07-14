@@ -27,7 +27,7 @@ main {
   height: 500px;
 }
 
-.fullname, .wrapper {
+.fullname , .wrapper {
   display: flex;
 }
 
