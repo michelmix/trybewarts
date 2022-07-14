@@ -27,7 +27,8 @@ main {
   height: 500px;
 }
 
-.fullname, .wrapper {
+.fullname,
+.wrapper {
   display: flex;
 }
 
@@ -35,6 +36,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 #label-content {
   display: block;
 }
