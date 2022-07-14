@@ -21,10 +21,10 @@ const inputAgreement = document.getElementById('agreement');
 
 const btnSubmit = document.getElementById('submit-btn');
 
-inputAgreement.addEventListener('click', function () {
+inputAgreement.addEventListener('click', () => {
   if (inputAgreement.checked) {
     btnSubmit.disabled = false;
   } else {
     btnSubmit.disabled = true;
   }
-})
+});
